@@ -1,5 +1,4 @@
 # Cubic-Boron-Nitride
-c-BN
 c-BN, a semiconductor material with an ultra-wide band gap, will be the object of study in this thesis. The
 study of this novel material will be carried out by considering different point defects and their potential for QT
 applications. The selection of defect candidates to study in an initial screening process will be based on the
