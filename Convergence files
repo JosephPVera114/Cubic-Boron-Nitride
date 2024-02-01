@@ -30,28 +30,13 @@ NPAR    = 2
 #################################################################################################
 #################################################################################################
 #################################################################################################
-"jobfile"
+"KPOINTS"
 
-#!/bin/bash
-# Specify jobname:
-#SBATCH --job-name=MyJob
-# Specify the number of nodes and the number of CPU's (tasks) per node:
-#SBATCH --ntasks=4
-# Specify account. 
-#SBATCH --account=nn9136k
-# The maximum time allowed for the job, in hh:mm:ss
-#SBATCH --time=00:10:00
-# Maximum memory allowed per cpu
-#SBATCH --mem-per-cpu=3800M
-
-## Set up job environment    
-module purge
-module load intel/2022b
-
-## Run command 
-srun /cluster/home/josephpa/cBN/bin/vasp
-
-exit 0
+k-density: 4.0
+0
+Gamma
+ 7 7 7
+ 0  0  0
 
 #################################################################################################
 #################################################################################################
