@@ -103,7 +103,7 @@
                                           Band structure
 #################################################################################################
 0. This is a non-self-consistent calculation
-1. Create you INCAR_HSE06_bs, include the new tag "ICHARG = 11", last tag indicates the 
+1. Create INCAR_HSE06_bs, include the new tag "ICHARG = 11", last tag indicates the 
    non-self-consistent calculation
 2. Copy CHGCAR, POSCAR and jobfile from DOS_HSE06 section
 3. Create POTCAR with the command "makepot . Pt"
